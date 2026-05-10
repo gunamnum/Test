@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.vercel/
+.tools/
+.repo-upload/
+*.zip
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*.local

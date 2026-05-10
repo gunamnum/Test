@@ -1,28 +1,38 @@
 # CZN Save Data Lab
 
-Simple fan-made Chaos Zero Nightmare Save Data calculator built as a Vite-ready vanilla JavaScript site.
+Simple fan-made Chaos Zero Nightmare Save Data calculator built with Next.js for Vercel deployment.
 
-## Run with Vite
+## Run Locally
 
-Install dependencies first if `npm` is available:
+Install dependencies first:
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Static Preview
-
-If Vite is not installed yet, this project also includes a tiny local preview server:
-
-```bash
-node preview-server.mjs
-```
-
 Then open:
 
 ```text
-http://127.0.0.1:4173/
+http://localhost:3000/
+```
+
+## Deploy on Vercel
+
+Connect this repository in Vercel and keep the defaults:
+
+```text
+Framework Preset: Next.js
+Build Command: next build
+Output Directory: .next
+```
+
+## Legacy Static Preview
+
+The old static preview helper is still included for local fallback:
+
+```text
+node preview-server.mjs
 ```
 
 On Windows, double-click `run-local.cmd` or run:

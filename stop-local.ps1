@@ -1,4 +1,4 @@
-$port = 4173
+$port = 3000
 $connections = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
 $processIds = @()
 
